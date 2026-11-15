@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Habiba Khaled Hassan — Résumé</title>
+    <link rel="icon" href="images/favicon.svg" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <style>
+      :root {
+        color-scheme: light;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background: #fbf5f7;
+        color: #292126;
+        font:
+          13px/1.65 "Manrope",
+          Arial,
+          sans-serif;
+        margin: 0;
+      }
+      main {
+        max-width: 850px;
+        margin: 35px auto;
+        padding: 55px 60px;
+        background: white;
+        border: 1px solid #eadde1;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Space Grotesk", Arial, sans-serif;
+      }
+      h1 {
+        font-size: 35px;
+        line-height: 1.1;
+        letter-spacing: -1.5px;
+        margin: 0 0 6px;
+      }
+      h2 {
+        font-size: 17px;
+        color: #b91436;
+        border-bottom: 1px solid #e8d6dc;
+        padding-bottom: 5px;
+        margin: 27px 0 12px;
+      }
+      h3 {
+        font-size: 14px;
+        margin: 16px 0 5px;
+      }
+      p {
+        margin: 6px 0;
+      }
+      ul {
+        padding-left: 19px;
+        margin: 7px 0;
+      }
+      li {
+        margin-bottom: 4px;
+      }
+      a {
+        color: #a80f30;
+        text-underline-offset: 3px;
+      }
+      .role {
+        font-size: 19px;
+        color: #b91436;
+        margin-bottom: 12px;
+      }
+      .contact {
+        font-size: 11px;
+        overflow-wrap: anywhere;
+      }
+      .tools {
+        font-size: 11px;
+        color: #65575f;
+      }
+      .date {
+        font-size: 11px;
+        color: #65575f;
+        font-weight: 400;
+        margin-left: 12px;
+      }
+      .toolbar {
+        max-width: 850px;
+        margin: 24px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 20px;
+        font-size: 12px;
+      }
+      .toolbar button {
+        background: #b91436;
+        border: 0;
+        border-radius: 4px;
+        color: white;
+        padding: 12px 18px;
+        cursor: pointer;
+        font: inherit;
+      }
+      .toolbar button:focus-visible,
+      a:focus-visible {
+        outline: 3px solid #b91436;
+        outline-offset: 4px;
+      }
+      .print-note {
+        font-size: 10px;
+        color: #71676c;
+        text-align: center;
+        margin: 20px;
+      }
+      @media (max-width: 600px) {
+        main {
+          margin: 15px;
+          padding: 28px 22px;
+        }
+        h1 {
+          font-size: 30px;
+        }
+        .date {
+          display: block;
+          margin-left: 0;
+        }
+      }
+      @media print {
+        @page {
+          size: A4;
+          margin: 15mm;
+        }
+        body {
+          background: white;
+          font:
+            10px/1.5 Arial,
+            sans-serif;
+        }
+        main {
+          padding: 0;
+          border: 0;
+          margin: 0;
+          max-width: none;
+        }
+        .toolbar,
+        .print-note {
+          display: none;
+        }
+        h1 {
+          font-size: 28px;
+        }
+        h2 {
+          font-size: 13px;
+          margin-top: 19px;
+        }
+        h3 {
+          font-size: 11px;
+          break-after: avoid;
+        }
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+        .contact,
+        .tools,
+        .date {
+          font-size: 9px;
+        }
+        section,
+        article {
+          break-inside: avoid;
+        }
+        .role {
+          font-size: 16px;
+        }
+      }
+    </style>
+    <script src="js/resume.js" defer></script>
+  </head>
+  <body>
+    <nav class="toolbar" aria-label="Résumé actions">
+      <a href="index.html">← Back to portfolio</a
+      ><button id="print-resume">Print / Save as PDF</button>
+    </nav>
+    <main>
+      <header>
+        <h1>Habiba Khaled Hassan</h1>
+        <p class="role">Data Engineer</p>
+        <p class="contact">
+          Alexandria, Egypt ·
+          <a href="mailto:habibakhaledhassan216@gmail.com">habibakhaledhassan216@gmail.com</a> ·
+          <a href="tel:+201203867025">+20 120 386 7025</a>
+        </p>
+        <p class="contact">
+          <a href="https://www.linkedin.com/in/habiba-khaled216"
+            >linkedin.com/in/habiba-khaled216</a
+          >
+          · <a href="https://github.com/Habibakhaled216">github.com/Habibakhaled216</a>
+        </p>
+      </header>
+      <section>
+        <h2>Professional Summary</h2>
+        <p>
+          Computer and Communication Engineering undergraduate at Alexandria University with a
+          strong foundation in programming using Python and Java. Currently developing practical
+          skills in SQL, databases, data processing, and core data engineering concepts through the
+          Digital Egypt Pioneers Initiative (DEPI). Familiar with Pandas and NumPy, with strong
+          problem-solving, analytical thinking, and teamwork skills. Interested in building a career
+          in Data Engineering and expanding practical experience in data-driven technologies.
+        </p>
+      </section>
+      <section>
+        <h2>Education</h2>
+        <h3>Alexandria University <span class="date">Expected graduation: 2028</span></h3>
+        <p>Bachelor’s Degree in Computer and Communication Engineering · Undergraduate</p>
+      </section>
+      <section>
+        <h2>Technical Skills</h2>
+        <p>
+          <strong>Programming:</strong> Python, Java, C, SQL<br /><strong
+            >Libraries &amp; Frameworks:</strong
+          >
+          Pandas, NumPy, Selenium, Flask, PyODBC<br /><strong>Databases:</strong> SQL Server, NoSQL,
+          Database Fundamentals<br /><strong>Data Engineering:</strong> ETL (SSIS), Data
+          Warehousing, Big Data Concepts, Web Scraping<br /><strong>Data Visualization:</strong>
+          Power BI
+        </p>
+      </section>
+      <section>
+        <h2>Experience &amp; Training</h2>
+        <h3>
+          Data Engineering Trainee — Digital Egypt Pioneers Initiative (DEPI)<span class="date"
+            >July 2026 – Present</span
+          >
+        </h3>
+        <ul>
+          <li>
+            Develop hands-on skills in SQL, Python, ETL processes, and relational database design
+            through practical data engineering projects.
+          </li>
+          <li>
+            Build and manage data integration and transformation workflows, applying data modeling
+            and database optimization techniques.
+          </li>
+          <li>
+            Design data-driven solutions using modern data engineering concepts and best practices.
+          </li>
+          <li>
+            Gain practical experience across the data engineering lifecycle, from data preparation
+            and transformation to structured data storage.
+          </li>
+        </ul>
+      </section>
+      <h2>Projects</h2>
+      <article>
+        <h3>
+          Telecom Data Warehouse — ETL Project ·
+          <a href="https://github.com/Habibakhaled216/Telecom_Project">GitHub ↗</a>
+        </h3>
+        <ul>
+          <li>Developed an ETL pipeline to process telecom transaction data from CSV files.</li>
+          <li>
+            Applied validation, cleaning, and transformation rules with subscriber mapping and
+            rejected-record handling.
+          </li>
+          <li>Loaded valid records into the data warehouse and archived processed files.</li>
+        </ul>
+        <p class="tools">Tools &amp; concepts: SSIS, SQL Server, CSV, ETL, Data Warehousing</p>
+      </article>
+      <article>
+        <h3>
+          Wuzzuf Job Scraper ·
+          <a href="https://github.com/Habibakhaled216/WUZZUF_Project">GitHub ↗</a>
+        </h3>
+        <ul>
+          <li>
+            Built a Python scraper to collect job listings across multiple searches on Wuzzuf.
+          </li>
+          <li>Targets the first three results pages by default, with a configurable page count.</li>
+          <li>
+            Collects essential job information into structured CSV data for further analysis or
+            storage.
+          </li>
+        </ul>
+        <p class="tools">Tools: Python, Selenium, Pandas, Time</p>
+      </article>
+      <article>
+        <h3>
+          Text-to-SQL Web Interface ·
+          <a href="https://github.com/Habibakhaled216/From-text-to-SQL_By_Gemini">GitHub ↗</a>
+        </h3>
+        <ul>
+          <li>
+            Built a learning application that uses the Gemini API and a database schema to convert
+            natural-language questions into SQL.
+          </li>
+          <li>
+            Executes generated queries using Pandas pd.read_sql() and a SQL Server connection.
+          </li>
+          <li>Provides a simple Flask interface for questions, generated queries, and results.</li>
+        </ul>
+        <p class="tools">Tools: Python, Gemini API, SQL Server, HTML, CSS, Pandas, PyODBC, Flask</p>
+      </article>
+      <article>
+        <h3>
+          Supermarket Sales Analysis ·
+          <a href="https://github.com/Habibakhaled216/SuperMarketDataHandling/tree/master"
+            >GitHub ↗</a
+          >
+        </h3>
+        <ul>
+          <li>Used Python and Pandas to clean, prepare, and analyze SuperMarket.csv.</li>
+          <li>
+            Answered business questions using sales and transaction information, including revenue,
+            product categories, and customer satisfaction.
+          </li>
+        </ul>
+        <p class="tools">Tools: Python, Pandas · Source code on the master branch</p>
+      </article>
+    </main>
+    <p class="print-note">Use “Print / Save as PDF” to create a PDF copy from your browser.</p>
+  </body>
+</html>

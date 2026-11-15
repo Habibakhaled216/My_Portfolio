@@ -1,0 +1,22 @@
+[
+  {
+    "file": "telecom.jpg",
+    "page": "https://unsplash.com/photos/server-racks-in-data-center-klWUhr-wPJ8",
+    "credit": "imgix"
+  },
+  {
+    "file": "wuzzuf.jpg",
+    "page": "https://unsplash.com/photos/person-coding-on-laptop-workspace-UcYBL5V0xWQ",
+    "credit": "Nubelson Fernandes"
+  },
+  {
+    "file": "text-to-sql.jpg",
+    "page": "https://unsplash.com/photos/laptop-displaying-code-on-a-desk-dTmj5aXbKp4",
+    "credit": "Dawit"
+  },
+  {
+    "file": "supermarket.jpg",
+    "page": "https://unsplash.com/photos/grocery-store-aisle-with-stocked-shelves-rWMIbqmOxrY",
+    "credit": "Nathália Rosa"
+  }
+]
